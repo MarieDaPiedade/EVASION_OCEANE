@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Saint James - Evasion Océane | Arcachon</title>
+        <meta name="description" content="Saint James, Armor Lux, Cap Marine, Batela : venez découvrir notre collection de vêtements marins de qualité sur Arcachon.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="evasion oceane.css">
+    </head>
+
+    <body>
+
+<!--HEADER-->       
+
+        <header>
+            <div>
+                <h1>Saint James - Evasion Océane</h1> 
+                <div id="Prêt-à-porter">Prêt-à-porter <strong>Homme / Femme / Enfant</strong></div>
+            </div>      
+        </header>
+
+<!--SECTIONS-->
+
+    <!--PRESENTATION-->
+
+        <section>
+            <div class="photo">
+                <img src="../Site web Evasion Océane/Photos Vitrine/Vitrine-1.JPG" alt="Vitrine Saint James - Evasion Océane">
+            </div>
+            <div class="présentation">
+                <p><br>Evasion Océane vous embarque pour une escapade nautique au milieu de marques mythiques comme <br><strong>SAINT JAMES </strong>et <strong>ARMOR LUX</strong>.<br><br>
+                    <strong>CAP MARINE</strong>, <strong>BATELA</strong> et <strong>MOUSQUETON</strong> s'invitent également pour des looks tout conforts et stylés.<br><br>
+                    À bord, vous trouverez un large choix de marinières, les iconiques pulls 100% laine, les vareuses traditionnelles et revisitées offrant une coupe décontractée et moderne,
+                    <br>des imprimés vitaminés et une collection de lin si agréable en cas de forte chaleur.<br><br>
+                    Nous n'avons pas oublié les tous petits avec <strong>PETITS COEURS A LA MER</strong> et nos tee-shirts souvenir.<br><br>
+                    Pas besoin de boussole, fort de notre expérience, nous vous guiderons dans votre recherche et vous mèneront à bon port.</p>
+            </div>
+            <div class="photo">
+                <img src="../Site web Evasion Océane/Photos Vitrine/Vitrine-2.JPG" alt="Vitrine Saint James - Evasion Océane">
+            </div>
+        </section>
+
+    <!--DIAPORAMAS-->
+
+        <section>
+            <h2>Un aperçu de notre collection</h2>
+            
+
+
+            <figure class="marque">
+                <img src="" alt="Saint James">
+                <figcaption>Saint James</figcaption>
+            </figure>
+            <figure class="marque">
+                <img src="" alt="Armor Lux">
+                <figcaption>Armor Lux</figcaption>
+            </figure>
+            <figure class="marque">
+                <img src="" alt="Cap Marine">
+                <figcaption>Cap Marine</figcaption>
+            </figure>
+            <figure class="marque">
+                <img src="" alt="Batela">
+                <figcaption>Batela</figcaption>
+            </figure>
+            <figure class="marque">
+                <img src="" alt="Mousqueton">
+                <figcaption>Mousqueton</figcaption>
+            </figure>
+            <figure class="marque">
+                <img src="" alt="Petits coeurs à la mer">
+                <figcaption>Petits coeurs à la mer</figcaption>
+            </figure>
+        </section>
+
+    <!--HORAIRES D'OUVERTURE-->
+
+        <section>
+            <h2>Nos horaires d'ouverture</h2>
+            <div class="horaires">
+                <div class="gras">
+                    <p>Du Lundi au Dimanche</p>
+                </div>
+                <div class="normal">
+                    <p>10h à 12h30 / 14h30 à 19h</p>
+                </div>
+            </div>
+            <div class="horaires1">
+                <div class="gras">
+                    <p>Juillet & Août</p>
+                </div>
+                <div class="normal">
+                    <p>Du Lundi au Dimanche<br>10h à 20h Non Stop</p>
+                </div>
+
+        </section>
+
+    <!--CONTACT-->
+
+        <section>
+            <h2>Nous contacter</h2>
+            <div class="adresse">
+                <figure class="icone">
+                    <img src="../Site web Evasion Océane/adresse.png" alt="adresse">
+                </figure>
+                <div class="normal">
+                    <p>222 boulevard de la plage,</p>
+                </div>
+                <div class="gras">
+                    <pre><p>     33120 ARCACHON</p></pre>
+                </div>
+                <div class="italique">
+                    <pre><p>     (à côté du Supermarché Leclerc)</p></pre>
+                </div>
+            </div>
+            
+            <div class="tél">
+                <figure class="icone">
+                    <img src="../Site web Evasion Océane/telephone.png" alt="téléphone">
+                </figure>
+                <div class="normal">
+                    <p>05.56.83.47.87</p>
+                </div>
+            </div>
+            
+            <div class="mail">
+                <figure class="icone">
+                    <img src="../Site web Evasion Océane/mail.png" alt="mail">
+                </figure>
+                <div class="normal">
+                    <p><a href="mailto:evasionoceane@sfr.fr">evasionoceane@sfr.fr</a></p>
+                </div>
+            </div>
+        </section>
+
+<!--FOOTER-->
+
+        <footer>
+            <p>© Saint James - Evasion Océane | Réalisé par Marie DP | 2020</p>
+        </footer>
+    </body>
+</html>

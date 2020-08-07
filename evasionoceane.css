@@ -1,0 +1,299 @@
+/* GENERAL */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Roboto-Regular';
+    font-size: 1em;
+    line-height: 1.5em;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url('Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('Roboto-Regular.ttf');      
+}
+h1,h2{
+    color: #1155cc;
+    font-family: "Pacifico", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.gras{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
+}
+.italique{
+    font-style: italic ;
+}
+
+
+/* HEADER & FOOTER*/
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: center;
+    text-align: center;
+}
+header h1{
+    font-size: 1.4em;   
+}
+header > #Prêt-à-porter{
+    width: 90%;
+    justify-content: center;
+}
+#Prêt-à-porter{
+    font-size: 1em;
+    padding-top: 20px;
+    font-family: 'Roboto-Regular';
+    line-height: 1.5em;
+    font-style: oblique;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+/* SECTIONS*/
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+}
+section h2{
+    margin: 20px auto;
+    width: 90%;
+    border-bottom: 2px solid RGB(17, 85, 204);
+    box-shadow:  0px 7px 7px -5px RGB(52, 190, 218);
+    font-size: 1.2em;
+}
+section > div{
+    width: 90%;
+}
+
+
+    /* PRESENTATION */
+
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 200px;
+    height: 150px;
+    box-shadow: 3px 3px 3px 3px RGB(52, 190, 218, 0.5);
+    border-radius: 3%;
+}
+.présentation{
+    text-align: center;
+    padding: 15px;
+    margin: 0px auto 15px auto;
+}
+
+    /* DIAPORAMAS */
+
+#diapo{
+justify-content: center;
+text-align: center;
+flex-direction: column;
+margin-top: 15px;
+}
+.marque{
+    font-family: 'Roboto-Regular';
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+    /* HORAIRES D'OUVERTURE*/
+
+#ouverture{
+    margin-top: -15px;
+}
+.horaires, .horaires1{
+    text-align: left;
+}
+.horaires{
+    margin-bottom: 10px;
+}
+
+    /*CONTACT*/
+
+.icone img{
+    width: 20px;
+    height: 20px;
+}
+.tél, .mail{
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+}
+.tél > .normal{
+    margin-left: 5px;
+}
+.mail > .normal{
+    margin-left: 5px;
+}
+.icone, .normal{
+    display: inline-block;
+}
+figure, div > p{
+    vertical-align: text-top;
+}
+
+@media screen and (min-width: 980px){
+    header h1{
+        font-size: 3.5em;
+    }
+    #Prêt-à-porter{
+        font-size: 1.5em;
+    }
+    .photo img{
+        width: 200px;
+        height: 150px;
+        flex: auto;
+    }
+    .photo, .présentation{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .présentation{
+        font-size: 1em;
+        flex: initial;
+    }
+    section h2{
+        font-size: 1.7em;
+        word-spacing: 5px;
+    }
+    #aperçu{
+        text-align: center;
+        width: 600px;
+        margin-bottom: 50px;
+    }
+    #diapo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.2fr 1fr 0.2fr;
+    }
+    #wowslider-container1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #wowslider-container2{
+        grid-column-start: 2;
+        grid-column-end: ;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #wowslider-container3{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #wowslider-container4{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    #wowslider-container5{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    #wowslider-container6{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .SaintJames{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .ArmorLux{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .CapMarine{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .Batela{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .Mousqueton{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .Petitscoeurs{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    #ouverture{
+        width: 400px;
+
+        text-align: left;
+        margin-left: 50px;
+    }
+    #contact{
+        width: 400px;
+        text-align: right;
+        margin-right: 50px;
+    }
+    .adresse, .tél, .mail{
+        text-align: right;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
